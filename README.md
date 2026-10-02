@@ -44,31 +44,31 @@ Modify the command above for the corresponding search function and value of `n`;
 measure the runtime and enter it into the table.
 (See the hint below the table before doing it all manually.)
 
-|                | `sequential_search_itr`   | `binary_search_rec`   |
-| -------------- | ------------------------- | --------------------- | 
-| `n=2**0`       |                           |                       |
-| `n=2**1`       |                           |                       |
-| `n=2**2`       |                           |                       |
-| `n=2**3`       |                           |                       |
-| `n=2**4`       |                           |                       |
-| `n=2**5`       |                           |                       |
-| `n=2**6`       |                           |                       |
-| `n=2**7`       |                           |                       |
-| `n=2**8`       |                           |                       |
-| `n=2**9`       |                           |                       |
-| `n=2**10`      |                           |                       |
-| `n=2**11`      |                           |                       |
-| `n=2**12`      |                           |                       |
-| `n=2**13`      |                           |                       |
-| `n=2**14`      |                           |                       |
-| `n=2**15`      |                           |                       |
-| `n=2**16`      |                           |                       |
-| `n=2**17`      |                           |                       |
-| `n=2**18`      |                           |                       |
-| `n=2**19`      |                           |                       |
-| `n=2**20`      |                           |                       |
-| `n=2**21`      |                           |                       |
-| `n=2**22`      |                           |                       |
+|                | `sequential_search_itr`            | `binary_search_rec`            |
+| -------------- | ---------------------------------- | ------------------------------ | 
+| `n=2**0`       |       90.1 nsec                    |      529 nsec                  |
+| `n=2**1`       |       115 nsec                     |      645 nsec                  |
+| `n=2**2`       |       170 nsec                     |      775 nsec                  |
+| `n=2**3`       |       260 nsec                     |      706 nsec                  |
+| `n=2**4`       |       377 nsec                     |      813 nsec                  |
+| `n=2**5`       |       619 nsec                     |      935 nsec                  |
+| `n=2**6`       |       1.08 usec                    |      1.03 usec                 |
+| `n=2**7`       |       2.02 usec                    |      1.22 usec                 |
+| `n=2**8`       |       3.83 usec                    |      1.5 usec                  |
+| `n=2**9`       |       7.54 usec                    |      1.67 usec                 |
+| `n=2**10`      |       14.9 usec                    |      1.84 usec                 |
+| `n=2**11`      |       29.6 usec                    |      1.99 usec                 |
+| `n=2**12`      |       59.1 usec                    |      2.09 usec                 |
+| `n=2**13`      |       118 usec                     |      2.24 usec                 |
+| `n=2**14`      |       235 usec                     |      2.39 usec                 |
+| `n=2**15`      |       470 usec                     |      2.55 usec                 |
+| `n=2**16`      |       941 usec                     |      2.74 usec                 |
+| `n=2**17`      |       1.88 msec                    |      2.92 usec                 |
+| `n=2**18`      |       3.77 msec                    |      2.99 usec                 |
+| `n=2**19`      |       7.54 msec                    |      3.09 usec                 |
+| `n=2**20`      |       15.2 msec                    |      3.4 usec                  |
+| `n=2**21`      |       30.8 msec                    |      3.57 usec                 |
+| `n=2**22`      |       61.4 msec                    |      3.71 usec                 |
 
 > **HINT:**
 > You don't have to run all of these tests manually.
