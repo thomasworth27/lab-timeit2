@@ -300,14 +300,14 @@ Modify the command above for the corresponding search function and container typ
 measure the runtime and enter it into the table.
 If you get a stack overflow, then put `---` in the table.
 
-|                            | `array`  | `list`  | `tuple`     | `deque`       |
-| -------------------------- | ---------| --------|------------ | ------------- |
-| `sequential_search_itr`    |          |         |             |               |
-| `sequential_search_itr2`   |          |         |             |               |
-| `sequential_search_rec`    |          |         |             |               |
-| `binary_search_itr`        |          |         |             |               |
-| `binary_search_rec`        |          |         |             |               |
-| `binary_search_rec2`       |          |         |             |               |
+|                            | `array`   | `list`    | `tuple`     | `deque`       |
+| -------------------------- | ----------| ----------|------------ | ------------- |
+| `sequential_search_itr`    | 3.73 msec | 1.55 msec | 1.48 msec   | 1.56 msec     |
+| `sequential_search_itr2`   | 5.08 msec | 2.07 msec | 2.23 msec   | 83 msec       |
+| `sequential_search_rec`    | ---       | ---       | ---         | ---           |
+| `binary_search_itr`        | 3.61 usec | 1.81 usec | 1.8 usec    | 97.2 usec     |
+| `binary_search_rec`        | 5.32 usec | 2.6 usec  | 2.51 usec   | 99.9 usec     |
+| `binary_search_rec2`       | 4.61 usec | 361 usec  | 363 usec    | ---           |
 
 You should notice that:
 1. for the `array` container, all implementations of binary search work well
